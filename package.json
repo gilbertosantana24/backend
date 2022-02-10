@@ -4,15 +4,18 @@
   "description": "api rest with mysql",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "dev": ""
   },
   "author": "carlos fuentes",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
     "express": "^4.17.2",
     "mysql2": "^2.3.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
     "sequelize": "^6.16.0"
   },
   "devDependencies": {
