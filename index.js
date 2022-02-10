@@ -17,6 +17,7 @@ require("./routes/movie.routes")( app );
 
 
 //start server + port
-app.listen( 3000, () => {
-    console.log("SERVER IS RUNNING!!")
-})
+const PORT = process.env.PORT || 8070;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}.`);
+});
